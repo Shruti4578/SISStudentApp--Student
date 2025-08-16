@@ -1,0 +1,74 @@
+[versions]
+agp = "8.4.1"
+androidActivation = "1.6.7"
+androidMail = "1.6.6"
+cardview = "1.0.0"
+checkoutVersion = "1.6.38"
+circleimageview = "3.1.0"
+credentials = "1.3.0-alpha04"
+credentialsPlayServicesAuth = "1.2.2"
+credentialsVersion = "1.2.2"
+firebaseAuth = "23.0.1"
+firebaseBom = "33.0.0"
+firebaseMessaging = "24.0.0"
+firebaseStorage = "21.0.0"
+googleApiClient = "2.4.0"
+googleApiServicesGmail = "v1-rev20220404-2.0.0"
+googleid = "1.1.0"
+googleOauthClientJetty = "1.35.0"
+googleServices = "4.4.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+lifecycleLivedataKtx = "2.8.0"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+materialCalendarview = "1.9.2"
+playServicesAuth = "21.1.1"
+playServicesLocation = "21.2.0"
+recyclerview = "1.3.2"
+volley = "1.2.3"
+firebaseCommon = "21.0.0"
+firebaseAuthVersion = "23.0.0"
+
+[libraries]
+android-activation = { module = "com.sun.mail:android-activation", version.ref = "androidActivation" }
+android-mail = { module = "com.sun.mail:android-mail", version.ref = "androidMail" }
+cardview = { module = "androidx.cardview:cardview", version.ref = "cardview" }
+checkout-v1638 = { module = "com.razorpay:checkout", version.ref = "checkoutVersion" }
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+credentials = { module = "androidx.credentials:credentials", version.ref = "credentials" }
+credentials-play-services-auth = { module = "androidx.credentials:credentials-play-services-auth", version.ref = "credentialsPlayServicesAuth" }
+credentials-v121 = { module = "androidx.credentials:credentials", version.ref = "credentialsVersion" }
+firebase-auth = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuth" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firebaseMessaging" }
+firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorage" }
+google-api-client = { module = "com.google.api-client:google-api-client", version.ref = "googleApiClient" }
+google-api-services-gmail = { module = "com.google.apis:google-api-services-gmail", version.ref = "googleApiServicesGmail" }
+google-oauth-client-jetty = { module = "com.google.oauth-client:google-oauth-client-jetty", version.ref = "googleOauthClientJetty" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+googleid = { module = "com.google.android.libraries.identity.googleid:googleid", version.ref = "googleid" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleLivedataKtx" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material-calendarview = { module = "com.github.prolificinteractive:material-calendarview", version.ref = "materialCalendarview" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocation" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+volley = { module = "com.android.volley:volley", version.ref = "volley" }
+firebase-common = { group = "com.google.firebase", name = "firebase-common", version.ref = "firebaseCommon" }
+google-firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuthVersion" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+
